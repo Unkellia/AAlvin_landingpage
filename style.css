@@ -1,0 +1,83 @@
+.Herosection{
+    background-color: white;
+}
+.Headerdiv{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    justify-content: space-around;
+}
+.Navigation  ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 150px;
+    
+}
+.navigation_list a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 50px;
+  }
+.Signin_botton ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 150px;  
+}
+.Signin_botton_list a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 50px;
+}
+.Hero_body {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
+.Hero_text_and_button {
+    align-self: center;
+    padding-bottom: 3rem;
+}
+.Hero_text_and_button h1{
+    text-decoration: solid;
+    font-size: 50px;
+}
+.Hero_text_and_button p{
+    font-size: 15px;
+}
+.Signin_botton button{
+    border-radius: 16px;
+    background-color: white;
+    border:none;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 5px 30px; 
+    text-align: left;
+    border: 1px solid red;
+
+}
+.getstarted_botton button{
+    background-color: #F53838;
+    padding-top: 1rem;
+    border:none;
+    padding: 10px 50px;
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    box-shadow: 0px 0px 0px 10px #FBA1B7;
+    ;
+    
+
+    
+    
+}
